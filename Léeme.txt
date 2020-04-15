@@ -1,0 +1,58 @@
+jsbin.com //Editor online de JavaScript, HTML y CSS
+developer.mozilla.org/es/  //MDN Mozilla Developer Network
+w3schools.com   //Información relevante a cerca de las tecnologías web
+//Declaración de variables const PI = 3.1416;
+
+let booleano = new Boolean(1);
+console.log(booleano.toString()); //Devuelve "True"
+
+//PArametros que boolean considera falsos:
+undefined, NaN, null, 0, 0.0, "", false;
+
+El operador == no compara tipos de datos
+Ejemplo:
+24 == 24 //True
+24 == "24" //True (no puede comparar tipos)
+24 === "24" //False (Puede comparar int con string, como no son iguales el resultado es falso)
+
+Dentro de FOR podemos utilizar break y continue
+for(let i = 0; i < 10; i++)
+{
+    break; //Termina por completo el ciclo
+    console.log(i);
+}
+
+A diferencia de Python, en JavaScript si existe ciclo do-while
+let i = 1;
+do{
+    console.log(i);
+    i++;
+}while(i<=10);
+
+Tipos especiales de datos:
+1. undefined  
+    -> let asa;
+    console.log(typeof asa);
+2. null
+    null es un valor asignable: let numero = null;
+3. NaN
+    Not a Number
+
+Caso curioso,dividir 0/0 en JavaScript devuelve Infinity.
+
+Ejercicios:
+Los siguientes, son una serie de ejercicios para que practiques los conocimientos adquiridos después del bloque de conceptos básicos.
+
+Tomando como entrada un número entero, imprimir si es par o impar.
+
+Recibir dos números usando prompt y sumarlos, restarlos, dividirlos y multiplicarlos
+
+Imprimir la sucesión fibonacci el número de veces que indicó el usuario
+
+Programar el juego del "Número Mágico" en el que se define un número y el usuario trata de adivinarlo, si el número que ingresó el usuario es menor, imprimir la pista "El número mágico es mayor", si el número que ingresó el usuario es mayor, imprimir la pista "El número mágico es menor",
+
+//FUNCIONES
+Nada se puede ejecutar despues de la palabra reservada return
+
+//SCOPE
+
